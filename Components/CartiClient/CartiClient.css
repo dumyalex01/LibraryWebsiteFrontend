@@ -1,0 +1,49 @@
+.containerCartiClient {
+    display: flex;
+    justify-content: space-between;
+ 
+  }
+  
+  .rezervariCartiActiv,
+  .rezervariCartiInactive {
+    width: 48%; 
+    margin: 0;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+  }
+  
+  .rezervariCartiActiv table,
+  .rezervariCartiInactive table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .rezervariCartiActiv th,
+  .rezervariCartiActiv td,
+  .rezervariCartiInactive th,
+  .rezervariCartiInactive td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .rezervariCartiActiv th:first-child,
+  .rezervariCartiActiv td:first-child,
+  .rezervariCartiInactive th:first-child,
+  .rezervariCartiInactive td:first-child {
+    border-left: none;
+  }
+  
+  .rezervariCartiActiv th:last-child,
+  .rezervariCartiActiv td:last-child,
+  .rezervariCartiInactive th:last-child,
+  .rezervariCartiInactive td:last-child {
+    border-right: none;
+  }
+  .containerCartiClient h2{
+    text-align:center;
+  }
+  

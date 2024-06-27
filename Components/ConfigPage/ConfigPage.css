@@ -1,0 +1,291 @@
+.configPageContainer{
+    position:fixed;
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    background-color:aqua;
+    display:flex;
+    flex-direction:row;
+}
+
+.navbarConfig{
+
+    height:100%;
+    width:15%;
+    background-color:#DBDADA;
+
+}
+
+.contentContainer{
+
+    height:100%;
+    width:85%;
+    background-color:#B266FF;
+
+}
+
+.navbarConfig ul {
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+}
+
+.navbarConfig ul li {
+    width: 100%;
+    height: 25%;
+}
+.navbarConfig ul li button{
+    width:100%;
+    height:100%;
+    background-size:cover;
+    background-repeat:none;
+    background-position:center;
+    font-size:16px;
+    font-weight:bold;
+    color:blue;
+    border:2 px gray solid;
+
+}
+#removeButton{
+
+    background-image:url("./images/user.png");
+}
+#createAdmin{
+    background-image:url("./images/add-user.png");
+}
+#notificationButton{
+    background-image:url("./images/notification.png");
+}
+#modificareStoc{
+    background-image:url("./images/open-book.png");
+}
+
+#my-header{
+    margin-top:5%;
+    text-align:center;
+    font-weight:bolder;
+    color:white;
+}
+
+
+#deleteB {
+    margin-top: 30%;
+    margin-left: 40%;
+    width: 20%;
+    height: 10%;
+    border-radius: 50px;
+    background-color: aqua;
+    font-size: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4), 0 2px 4px rgba(0, 0, 0, 0.3); 
+
+}
+.contentContainer h1{
+    text-align:center;
+    top:10%;
+}
+.contentContainer label{
+    top:50%;
+    margin-left:5%;
+    font-size:20px;
+}
+.contentContainer select{
+    top:50%;
+}
+
+.formStoc {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top:10%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contentContainer label {
+    font-weight: bold;
+}
+
+.contentContainer select, input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contentContainer button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contentContainer button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+.errorMessage {
+    color: red;
+    margin-top: 10px;
+}
+
+.checkbox-container {
+    margin-bottom: 10px;
+}
+
+.form3 {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.checkbox-container {
+    margin-bottom: 10px; 
+}
+
+.form3 input[type="checkbox"] {
+    display: none; 
+}
+
+.form3 input[type="checkbox"] + label {
+    display: inline-block;
+    vertical-align: middle;
+}
+.form3 label{
+    margin-left:20px;
+}
+
+.form3 input[type="checkbox"] + label:before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.form3 input[type="checkbox"]:checked + label:before {
+    background-color: #007bff;
+}
+
+#modifH{
+    margin-top:5%;
+    text-decoration:underline;
+}
+
+#inputUser{
+    position:fixed;
+    margin-top:15%;
+    margin-left:25%;
+    width:30%;
+    height:5%;
+    font-size:16px;
+    border:2px black double;
+}
+
+#messageInput {
+    position: fixed;
+    margin-left: 25%;
+    margin-top: 20%;
+    height: 30%;
+    width: 30%;
+    border-radius: 30px;
+    border: none;
+    overflow: auto;
+    white-space: pre-wrap; 
+    font-size:30px;
+    border:3px black solid;
+}
+#headerNotif{
+    margin-top:5%;
+}
+
+#butonNotificare{
+    position:fixed;
+    margin-left:50%;
+    margin-top:40%;
+    width:20%;
+    border-radius:30px;
+    border:1px black solid;
+}
+
+#button1Admin{
+   width:100%;
+   height:50%;
+   background:transparent;
+   border:4px aqua solid;
+   font-size:3rem;
+}
+#button2Admin{
+    width:100%;
+    height:50%;
+    background:transparent;
+    border:4px aqua solid;
+    font-size:3rem;
+}
+
+.formWrapper {
+
+    margin-left:35%;
+    margin-top:10%;
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width:30%;
+    height:40%;
+}
+
+#userSelector {
+    width: 100%;
+    height: 20%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top:10%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+#modifyButton {
+    margin-top:10%;
+    width: 100%;
+    height: 30%;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#modifyButton:hover {
+    background-color: #45a049;
+}
+#head1{
+    margin-top:10%;
+    text-align:center;
+}
+#head2{
+    text-align:center;
+}
+.containerAut form{
+    margin-top:10%;
+}

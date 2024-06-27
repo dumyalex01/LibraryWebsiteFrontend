@@ -1,0 +1,90 @@
+.containerProfilClient {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.containerProfilClient h1 {
+    text-align: center;
+    font-size: 3rem; 
+}
+
+.navbarProfilClient {
+    position: fixed;
+    margin-top: -50px;
+    padding: 0;
+    width: 15%;
+    height: 100%;
+    border:1px black solid;
+    overflow-y: auto;
+}
+
+.navbarProfilClient ul {
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.navbarProfilClient li {
+    width: 100%;
+    height: auto;
+}
+
+.navbarProfilClient button {
+    font-size:1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    width: 100%;
+    padding: 0.5rem; 
+    background-color: aqua;
+    border: none;
+    border-radius: 0.5rem; 
+    margin-bottom: 1rem; 
+}
+
+@media (max-width: 768px) {
+    .containerProfilClient h1 {
+        font-size: 2rem; 
+    }
+    
+    .navbarProfilClient {
+        width: 100%; 
+        height: auto; 
+        margin-top: 0; 
+    }
+    
+    .navbarProfilClient ul {
+        flex-direction: row; 
+    }
+    
+    .navbarProfilClient li {
+        width: auto; 
+        height: auto;
+    }
+    
+    .navbarProfilClient button {
+        font-size: 1rem; 
+        padding: 0.5rem; 
+        margin-right: 0.5rem; 
+        margin-bottom: 0; 
+    }
+
+    .workingContainer {
+        margin-left: 15%; 
+        padding: 20px;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc; 
+        width: 30%;
+        height:30%;
+        box-sizing: border-box;
+        position: absolute;
+        margin-top:20%;
+        overflow-y: auto;
+    }
+}

@@ -1,0 +1,36 @@
+.rezervari-container {
+    margin: 20px;
+}
+
+.rezervari-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.rezervari-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.rezervari-table th,
+.rezervari-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.rezervari-table th {
+    background-color: #f2f2f2;
+}
+
+.rezervari-table td button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.rezervari-table td button:hover {
+    background-color: #0056b3;
+}

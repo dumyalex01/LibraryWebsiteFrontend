@@ -1,0 +1,42 @@
+.rezervariContainer {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.rezervariContainer h1{
+    text-align:center;
+    margin-top:1%;
+}
+
+.first-half {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.rezervariContainer table{
+    margin-top:2%;
+    width:100%;
+}
+.rezervariContainer th, .rezervariContainer td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.rezervariContainer th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.rezervariContainer tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.rezervariContainer tr:hover {
+    background-color: #ddd;
+}

@@ -1,0 +1,170 @@
+.container2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("./images/library.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 16px; 
+    margin: 0; 
+    padding: 0; 
+    overflow-y:auto;
+}
+
+.wrapper {
+   position: relative;
+   margin-left: 60%;
+   margin-top: 7.5%;
+   width: 22%;
+   background: transparent;
+   border: 2px solid rgba(255,255,255,.2);
+   border-radius: 50px;
+   backdrop-filter: blur(25px);
+   box-shadow: 0 0 10px rgba(0,0,0,.2);
+   height: 70%;
+}
+
+.atm-photo {
+    position: absolute;
+    top: 0px;
+    left: -750px;
+    width: 300px;
+    height: 300px;
+    border-radius: 1000px;
+    background-image: url("./images/atm.jpeg");
+    background-repeat: no-repeat;
+}
+
+.diagonal-text {
+    position: absolute;
+    top: 200px;
+    left: -900px;
+    transform: rotate(-37deg);
+    font-size: 70px;
+    color: white;
+}
+.wrapper .form{
+    height:100%;
+    width:100%;
+}
+.wrapper h1 {
+    color: white;
+    margin-top: 50px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    margin: 30px 0;
+}
+
+
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white; 
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: white;
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+
+.wrapper .Forgot {
+    display: flex;
+    font-size: 15px;
+    margin-left: 180px;
+}
+
+.Forgot a {
+    color: white;
+    text-decoration: none;
+}
+
+.Forgot a:hover {
+    text-decoration: underline;
+}
+
+.wrapper button {
+    margin-top: 20px;
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    cursor: pointer;
+    font-size: 1em;
+    color: #333;
+    font-weight: 700;
+}
+
+.wrapper .register-link {
+    font-size: 5px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.register-link p a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .container2 {
+        margin: 0; 
+    }
+    .wrapper .h1{
+        font-size:1rem;
+    }
+    .wrapper {
+        margin-left: 30%; 
+        width: 50%; 
+        margin-top: 5%; 
+        height: auto;
+    }
+    .atm-photo {
+        width: 50px;
+        height: 50px; 
+        margin-left:30%;
+    }
+    .diagonal-text {
+        font-size: 0px;
+    }
+    .wrapper .input-box .icon {
+        font-size: 16px; 
+    }
+    .wrapper .Forgot {
+        display: flex;
+        font-size: 15px;
+        margin-left: 30px;
+    }
+}
